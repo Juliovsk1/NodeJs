@@ -1,0 +1,16 @@
+{
+  "name": "projetos_nodejs",
+  "version": "1.0.0",
+  "description": "Project to study common modules",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "common",
+    "commonjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
