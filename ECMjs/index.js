@@ -1,3 +1,11 @@
-import connectDb from "./src/utils/database.js"
+// Multiple imports
+import * as database from "./src/utils/database.js"
+import {getApiData} from "./src/utils/api.js"
 
-connectDb('db')
+database.connectDb('db')
+
+console.log("Sucess!")
+
+database.desconnectDb('db')
+
+getApiData();
