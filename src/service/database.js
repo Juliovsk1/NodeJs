@@ -1,9 +1,8 @@
 // Export default
-
 exports.connectDataBase = (dbName) => {
     console.log("Connection with " + dbName);
 };
-
-exports.desconnectDataBase = (dbName) => {
+// Export async default
+exports.desconnectDataBase = async (dbName) => {
     console.log("Desconnection with " + dbName);
 }
